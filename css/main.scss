@@ -272,7 +272,7 @@ section {
   }
 }
 .circle {
-  animation: circleAnim 1s infinite alternate;
+  animation: circleAnim 1s infinite alternate-reverse;
 }
 @keyframes circleAnim {
   from {
