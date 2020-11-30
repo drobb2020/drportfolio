@@ -3,10 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Portfolio landing page for David Robb" />
-    <meta name="keywords" contents="HTML, CSS, JavaScript, and general bio info." />
+    <meta
+      name="keywords"
+      contents="HTML, CSS, JavaScript, and general bio info."
+    />
     <meta name="author" content="David Robb" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./img/favicon.ico">
+    <link rel="icon" href="./img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="./dist/main.css" />
     <title>David Robb's Portfolio</title>
   </head>
@@ -35,7 +42,9 @@
             /></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/david-robb-42436a20/" target="_blank"
+            <a
+              href="https://www.linkedin.com/in/david-robb-42436a20/"
+              target="_blank"
               ><img src="./img/icons8-linkedin.svg" alt="facebook"
             /></a>
           </li>
@@ -46,7 +55,46 @@
           </li>
         </ul>
       </div>
-      
+      <div class="action">
+        <div class="profile" onclick="toggleMenu();">
+          <img src="./img/2.jpg" alt="David Robb" />
+        </div>
+        <!--Profile card start-->
+        <div class="card">
+          <div class="card-image">
+            <img src="./img/1.jpg" alt="" />
+          </div>
+          <div class="profile-image">
+            <img src="./img/2.jpg" alt="" />
+          </div>
+          <div class="card-content">
+            <h3>David Robb</h3>
+            <p>
+              Solution Support Engineer working with Micro Focus Software
+              (Canada). Currently developing skills in HTML, CSS, SASS,
+              Javascript, Node.js, Python and React. I have a 2 year old West
+              Highland White Terrier named Abigail (Abby), and she keeps me
+              busy.
+            </p>
+            <p>
+              I love to hike, bike, walk and exercise when I can. My best
+              vacation was a trip to Scotland and a hike along the South Loch
+              Ness Trail, followed by a couple of days in Speyside sampling
+              whiskey, an awesome time in Edinburgh, a tour of London and
+              finally a day in Paris. My first career was as a Marine Engineer,
+              and the sea is my first passion.
+            </p>
+          </div>
+          <div class="icons">
+            <p id="tooltip1">
+              <a href="mailto:info@davidrobb2021.tech?subject=Reaching out to you">
+                <i class="far fa-paper-plane fa-2x"></i>
+                <span>Email Me</span></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="hero">
       <div class="content">
@@ -184,7 +232,7 @@
             1655. It comes from the same Latin root as "exceed", in the sense of
             passing a boundary.
           </p>
-          <a href="./projects/">My Projects</a>
+          <a class="projects-btn" href="./projects/"> My Projects</a>
         </div>
       </div>
       <img

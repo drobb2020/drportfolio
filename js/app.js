@@ -40,3 +40,8 @@ gsap.from(".transition3", {
   duration: 1.2,
   stagger: 0.6,
 });
+
+function toggleMenu() {
+  const menuToggle = document.querySelector(".card");
+  menuToggle.classList.toggle("active");
+}
